@@ -25,7 +25,7 @@ const NameList = (props) => {
 
     const btnUpdateClick = () => {
 
-        fetch('https://poit.bolagsverket.se/poit/rest/SokKungorelse?sokord=&kungorelseid=&kungorelseObjektPersonOrgnummer=&kungorelseObjektNamn=&tidsperiodFrom=2022-07-01&tidsperiodTom=&amnesomradeId=6&kungorelsetypId=48')
+        fetch('https://poit.bolagsverket.se/poit/rest/SokKungorelse?sokord=&kungorelseid=&kungorelseObjektPersonOrgnummer=&kungorelseObjektNamn=&tidsperiodFrom=2022-08-01&tidsperiodTom=&amnesomradeId=6&kungorelsetypId=48')
             .then((response) => response.json())
             .then((data) => 
             {
